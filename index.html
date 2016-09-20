@@ -1,0 +1,236 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>我的足迹</title>
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" /> 
+	<meta name="keyword" content="Web前端,全栈,HTML5,CSS3,JavaScript,Bootstrap,Anglar.js,NodeJs">
+	<link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="http://dunizb.b0.upaiyun.com/w/css/header-min.css?t=1">
+    <link rel="stylesheet" href="http://dunizb.b0.upaiyun.com/w/css/demo-min.css?t=1">
+	<style type="text/css">
+    body{margin:0px;padding:0px}  
+    .header{text-align: center;}  
+    .header h2 {font: bold 2em/2em "Microsoft YaHei";display: block;}
+    #container{border:1px solid #ccc;height:550px;width: 100%;}
+    th {background-color: #169fe6;color: #fff;}
+    </style>
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	<script src="http://api.map.baidu.com/api?v=2.0&ak=wAXe6n1e7ByUvVvyahsR2dC9d3gwNEaU" type="text/javascript"></script>
+</head>
+<body>
+	<div class="w slogan">
+    	<img src="http://dunizb.b0.upaiyun.com/w/images/slogan-20160530.png" alt="读你" />
+    	<h1><a href="/"> 读 你 </a></h1>
+    	<h2>这世间唯有梦想和好姑娘不可辜负!</h2>
+    	<h3>www.mybry.com</h3>
+    </div>
+    <!-- 导航菜单 satrt -->
+    <nav class="w nav">
+        <ul class="main-nav">
+            <li><a href="/">Index</a></li>
+            <li>
+                <a href="?cat=6" title="Web前端">Web Front</a>
+                <ul class="sub-nav">
+                    <li><a href="?cat=66">Bootstrap</a></li>
+                    <li><a href="?cat=17">JavaScript</a></li>
+                    <li><a href="?cat=11">jQuery</a></li>
+                    <li><a href="?cat=22">当HTML遇上CSS</a></li>
+                    <li><a href="http://blog.163.com/zhangmihuo_2007/blog/#m=0&t=1&c=fks_084070086094084069087085087095086081081066085086081070" title="查看历史内容">More</a></li>
+                </ul>
+            </li>
+            <li><a href="?cat=36">Groovy</a></li>
+            <li>
+                <a href="?cat=44">Technology</a>
+                <ul class="sub-nav">
+                    <li><a href="?cat=82">图解GitHub系列<b>新</b></a></li>
+                    <li><a href="?page_id=86">Java雇佣兵系列</a></li>
+                    <li><a href="http://blog.163.com/zhangmihuo_2007/blog/#m=0"  title="查看历史内容">More</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="?cat=32">Essays</a>
+                <ul class="sub-nav">
+                    <li><a href="http://www.jianshu.com/notebooks/3709232/latest" title="读书札记&笔记">Reader Notes</a></li>
+                    <li><a href="http://blog.163.com/zhangmihuo_2007/blog/#m=0&t=1&c=fks_085067084086089067092081081095086081081066085086081070" title="历史随笔">History Essays</a></li>
+                </ul>
+            </li>
+            <li><a href="/obook/" class="strong" id="bookStore" title="闲置图书出售商店">OBook</a></li>
+            <li><a href="/demo/" id="demos" class="strong" title="分享生活，分享代码">Demos</a></li>
+            <li>
+                <a href="javascript:;" class="noa">Works</a>
+                <ul class="sub-nav">
+                    <li><a href="/obj/footprint.html">我的足迹<b>新</b></a></li>
+                    <li><a href="/obj/easyUI-themes/index.html">EasyUI仿win8主题</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="javascript:;" class="noa">Online Tools</a>
+                <ul class="sub-nav">
+                    <li><a href="/obj/emmet/emmet.html">Emmet 语法手册<b>新</b></a></li>
+                    <li><a href="/obj/git-manual/index.html">Git 简明参考手册<b>新</b></a></li>
+                    <li><a href="/obj/randomName.html">周会随机点名</a></li>
+                    <li><a href="http://tool.lu/?from=www.mybry.com">在线工具集合</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <!-- 导航菜单 end -->
+
+	<div class="header" role="header">
+		<h2>在地图上走过的足迹</h2>
+	</div>
+	
+	<div class="w">
+		<div id="container"></div>
+	</div>
+
+	<div class="w">
+		<table class="table table-striped table-bordered table-hover table-responsive" >
+		  <caption>
+		  	足迹列表
+		  	<a href="http://user.qzone.qq.com/526324776/4" target="_blank" class="btn btn-info btn-xs" role="button">照片</a>
+		  </caption>
+		  <thead>
+		  	<th>大致时间</th>
+		  	<th>省</th>
+		  	<th>城市\地区（景点）</th>
+		  	<th>备注</th>
+		  </thead>
+		  <tbody>
+		  	<tr>
+		  		<td>2009-10</td>
+			  	<td>湖南省</td>
+			  	<td>长沙（各大高校）</td>
+			  	<td>好友聚会</td>
+		  	</tr>
+		  	<tr>
+		  		<td>2011-03</td>
+			  	<td>江苏省</td>
+			  	<td>苏州（阳澄湖、拙政园、忠王府、苏州博物馆、山塘街、老苏州城）</td>
+			  	<td>公司年会</td>
+		  	</tr>
+		  	<tr>
+		  		<td>2012-春节</td>
+			  	<td>浙江省</td>
+			  	<td>杭州（杭州市、西湖风景区）</td>
+			  	<td>第一次独自旅行（上）</td>
+		  	</tr>
+		  	<tr>
+		  		<td>2012-春节</td>
+			  	<td>浙江省</td>
+			  	<td>乌镇（东栅、西栅）</td>
+			  	<td>第一次独自旅行（下）</td>
+		  	</tr>
+		  	<tr>
+		  		<td>2013-03</td>
+			  	<td>福建省</td>
+			  	<td>厦门（厦门岛、中山路、南普陀寺、厦门大学、白城、环岛南路、胡里山炮台、鼓浪屿）</td>
+			  	<td>辞职、学习</td>
+		  	</tr>
+		  	<tr>
+		  		<td>2013-04/07</td>
+			  	<td>广东省</td>
+			  	<td>广州（海心沙/电视塔、白云山、广州中轴线、西关、上下九、奥林匹克体育中心等）</td>
+			  	<td>辞职、学习</td>
+		  	</tr>
+		  	<tr>
+		  		<td>2013-09/2014-07</td>
+			  	<td>天津</td>
+			  	<td>五大道、意风区、滨江道、大学城、天塔、古文化街、中心公园</td>
+			  	<td>去过一次再也不想去第二次的城市</td>
+		  	</tr>
+		  	<tr>
+		  		<td>2014-春节</td>
+			  	<td>北京</td>
+			  	<td>天安门、故宫、颐和园、圆明园、天坛、八达岭长城</td>
+			  	<td>春节回家顺路玩</td>
+		  	</tr>
+		  	<tr>
+		  		<td>2014-春节</td>
+			  	<td>广东省</td>
+			  	<td>东莞（松山湖、大岭山镇）</td>
+			  	<td>东莞过年</td>
+		  	</tr>
+		  	<tr>
+		  		<td>2014-05</td>
+			  	<td>陕西省</td>
+			  	<td>西安（回民街、大雁塔、西安市区其他）、西岳华山</td>
+			  	<td>“On the way”第一次活动</td>
+		  	</tr>
+		  	<tr>
+		  		<td>2015-春节</td>
+			  	<td>湖南省</td>
+			  	<td>衡阳（南岳衡山）</td>
+			  	<td>好友聚会</td>
+		  	</tr>
+		  	<tr>
+		  		<td>2015-04</td>
+			  	<td>内蒙古自治区</td>
+			  	<td>阿拉善盟（腾格里沙漠）</td>
+			  	<td>公司团建</td>
+		  	</tr>
+		  </tbody>
+		</table>
+	</div>
+
+	<!-- 友情链接与页脚 start-->
+    <div class="w center footer-wrap">
+        <div class="friendlink">
+            <ul class="clearfix">
+                <h2>友情链接：</h2>
+                <li><a href="http://explorer1992.1kapp.com/" target="_blank">自由探索者小董君</a></li>
+                <li><a href="http://www.fengqu.com" target="_blank">丰趣海淘</a></li>
+                <li><a href="#" target="_blank">十年磨一剑</a></li>
+            </ul>
+        </div>
+    </div>    
+    <div class="footer-tl-li">    
+        <div class="w footer">
+            <p>Copyright &copy; <a href="/">www.mybry.com.</a> All Rights Reserevd. 2014-2016 &nbsp; 上海·中国 &nbsp; 读你·这世间唯有梦想和好姑娘不可辜负！</p>
+            <p>
+                Powerd by <a href="http://www.fengqu.com" target="_blank">www.fengqu.com</a>
+                &nbsp;Themes Source Code: <a href="https://github.com/dunizb/mytwentytwelve" target="_blank">mytwentytwelve</a>
+                &nbsp;Themes Design by <a href="/">Dunizb</a>
+            </p>
+            <p>
+                <a href="http://sae.sina.com.cn" target="_blank"><img src="http://dunizb.b0.upaiyun.com/w/images/sinaapp-1.gif" alt="新浪SEA"></a>System：v2.6.5 &nbsp; Date：v20160531.&nbsp;
+                <a href="http://tongji.baidu.com/web/welcome/login" target="_blank"><img src="http://dunizb.b0.upaiyun.com/w/images/cnzz.gif" alt="百度统计"></a>
+                <a href="/wp-login.php" target="_blank">登录</a>
+            </p>
+            <ul class="linkicon clearfix">
+                <li>
+                    <a href="https://www.github.com/dunizb" class="myicon icon-github" title="GitHub">GitHub</a>
+                </li>
+                <li>
+                    <a href="https://www.weibo.com/duni" class="myicon icon-weibo" title="微博">Weibo</a>
+                </li>
+                <li>
+                    <a href="javascript:;" id="weixinLink" class="myicon icon-weixin" role="button" data-toggle="popover" data-content="<img src='http://dunizb.b0.upaiyun.com/w/images/wxgzh.jpg' style='width:180px'>">微信</a>
+                </li>
+                <li>
+                    <a href="https://www.weibo.com/duni" class="myicon icon-douban" title="豆瓣">豆瓣</a>
+                </li>
+                <li>
+                    <a href="/demos/index.html" class="myicon icon-codelx" title="代码示例">代码示例</a>
+                </li>
+                <li>
+                    <a href="javascript:;" id="dashang" class="myicon icon-dashang" role="button"
+                       data-toggle="popover" title="如果对你有帮助,请心意打赏吧" data-content="<img src='http://dunizb.b0.upaiyun.com/w/images/dashang.png'>">赏</a>
+                </li>
+                <li>
+                    <a href="mailto:dunizb@foxmail.com" id="myemail" class="myicon icon-email" role="button" data-toggle="popover" title="电邮联系" data-content="ibing@outlook.com<br/>dunizb@foxmail.com">电邮联系</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 友情链接与页脚 end-->
+
+</body>
+<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+<script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+<script src="js/index.js"></script>
+</html>
