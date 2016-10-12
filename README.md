@@ -3,14 +3,12 @@
 百度地图API使用
 
 ## 使用
-1. 注册百度开发者，获得个人密钥，在index.html第22行替换url中ak参数
-
++ 注册百度开发者，获得个人密钥，在index.html第22行替换url中ak参数
 ```
 <script src="http://api.map.baidu.com/api?v=2.0&ak=wAXe6n1e7ByUvVvyahsR2dC9d3gwNEaU" type="text/javascript"></script>
 ```
-
-2. 地图数据
-`js/index.js`35行开始
++ 获取地理位置坐标：[百度地图坐标拾取系统](http://api.map.baidu.com/lbsapi/getpoint/index.html)
++ 填充地图数据：`js/index.js`36行开始，经纬度坐标以“|”分割
 
 [我的足迹](http://duni.sinaapp.com/obj/zuji/)
 
