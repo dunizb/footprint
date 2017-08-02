@@ -140,6 +140,30 @@ var markerArr = [{
         point:"121.473338|31.233094",
         isOpen:1,
         icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
+     },{
+         title:"云南大理白族自治州",
+         content:"大理古城、苍山洱海",
+         point:"100.252927|25.606508",
+         isOpen:0,
+         icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
+     },{
+         title:"云南丽江",
+         content:"丽江古城、拉市海",
+         point:"100.222099|26.876146",
+         isOpen:0,
+         icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
+     },{
+         title:"广西北海",
+         content:"北海银滩、三千海",
+         point:"109.135379|21.458892",
+         isOpen:0,
+         icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
+     },{
+         title:"广西桂林",
+         content:"桂林、阳朔",
+         point:"110.290984|25.268423",
+         isOpen:0,
+         icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
      }
 ];
 
