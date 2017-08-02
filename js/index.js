@@ -33,7 +33,7 @@ function addMapControl(){
 
 //标注点数组
 var markerArr = [{
-        title:"杭州市",
+        title:"杭州",
         content:"杭州市、杭州西湖景区",
         point:"120.171467|30.257352",
         isOpen:0,
@@ -45,55 +45,55 @@ var markerArr = [{
         isOpen:0,
         icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
      },{
-        title:"苏州市",
+        title:"苏州",
         content:"苏州博物馆、山塘街、忠王府、拙政园等",
         point:"120.635894|31.330387",
         isOpen:0,
         icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
      },{
-        title:"昆山市",
+        title:"昆山",
         content:"阳澄湖",
         point:"120.835913|31.409886",
         isOpen:0,
         icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
      },{
-        title:"衡阳市",
+        title:"衡阳",
         content:"整个衡阳",
         point:"112.576672|26.899646",
         isOpen:0,
         icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
      },{
-        title:"长沙市",
+        title:"长沙",
         content:"长沙市、湖南农业大学、湖南环境生物机电学院、湖南大众传媒学院、湖南艺术职业技术学院",
         point:"112.948208|28.233716",
         isOpen:0,
         icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
      },{
-        title:"邵阳市",
+        title:"邵阳",
         content:"邵东县",
         point:"111.961661|26.987796",
         isOpen:0,
         icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
      },{
-        title:"广州市",
+        title:"广州",
         content:"广州市、天河、西关、电视塔、白云山、上下九等",
         point:"113.370828|23.130788",
         isOpen:0,
         icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
      },{
-        title:"东莞市",
+        title:"东莞",
         content:"大岭山、松山湖",
         point:"113.845618|22.905876",
         isOpen:0,
         icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
      },{
-        title:"厦门市",
+        title:"厦门",
         content:"厦门大学、鼓浪屿、普陀山/寺、环岛路、胡里山炮台等",
         point:"118.142483|24.497133",
         isOpen:0,
         icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
      },{
-        title:"成都市",
+        title:"成都",
         content:"成都市、大熊猫繁育基地",
         point:"104.071216|30.663546",
         isOpen:0,
@@ -105,19 +105,19 @@ var markerArr = [{
         isOpen:0,
         icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
      },{
-        title:"天津市",
+        title:"天津",
         content:"天津市",
         point:"117.223736|39.140848",
         isOpen:0,
         icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
      },{
-        title:"北京市",
+        title:"北京",
         content:"天安门/广场、八达岭长城、故宫、天坛、西单、颐和园、圆明园遗址公园",
         point:"116.405505|39.913005",
         isOpen:0,
         icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
      },{
-        title:"西安市",
+        title:"西安",
         content:"西安市区、华山",
         point:"108.981951|34.283749",
         isOpen:0,
@@ -135,37 +135,37 @@ var markerArr = [{
         isOpen:0,
         icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
      },{
-        title:"上海市",
+        title:"上海",
         content:"目前我正在上海市，快来找我耍吧",
         point:"121.473338|31.233094",
         isOpen:1,
         icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
      },{
-         title:"云南大理白族自治州",
+         title:"大理",
          content:"大理古城、苍山洱海",
          point:"100.252927|25.606508",
          isOpen:0,
          icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
      },{
-         title:"云南丽江",
+         title:"丽江",
          content:"丽江古城、拉市海",
          point:"100.222099|26.876146",
          isOpen:0,
          icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
      },{
-         title:"云南昆明",
+         title:"昆明",
          content:"昆明",
          point:"102.707855|25.058846",
          isOpen:0,
          icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
      },{
-         title:"广西北海",
+         title:"北海",
          content:"北海银滩、三千海",
          point:"109.135379|21.458892",
          isOpen:0,
          icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
      },{
-         title:"广西桂林",
+         title:"桂林",
          content:"桂林、阳朔",
          point:"110.290984|25.268423",
          isOpen:0,
