@@ -153,6 +153,12 @@ var markerArr = [{
          isOpen:0,
          icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
      },{
+         title:"云南昆明",
+         content:"昆明",
+         point:"102.707855|25.058846",
+         isOpen:0,
+         icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
+     },{
          title:"广西北海",
          content:"北海银滩、三千海",
          point:"109.135379|21.458892",
