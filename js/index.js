@@ -140,11 +140,7 @@ var markerArr = [{
         point:"121.473338|31.233094",
         isOpen:1,
         icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
-     }
-];
-
-/**
-,{
+     },{
          title:"大理",
          content:"大理古城、苍山洱海",
          point:"100.252927|25.606508",
@@ -175,7 +171,7 @@ var markerArr = [{
          isOpen:0,
          icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
      }
-     **/
+];
 
 //创建marker
 function addMarker(){
