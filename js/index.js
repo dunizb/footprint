@@ -223,8 +223,12 @@ function createInfoWindow(i){
 }
 //创建一个Icon
 function createIcon(json){
-    var icon = new BMap.Icon("http://app.baidu.com/map/images/us_mk_icon.png", new BMap.Size(json.w,json.h),{imageOffset: new BMap.Size(-json.l,-json.t),infoWindowOffset:new BMap.Size(json.lb+5,1),offset:new BMap.Size(json.x,json.h)})
-    return icon;
+    var myIcon = new BMap.Icon("//api.map.baidu.com/img/markers.png", new BMap.Size(23, 25), {  
+        offset: new BMap.Size(10, 25), // 指定定位位置  
+        imageOffset: new BMap.Size(0, 0 - 10 * 25) // 设置图片偏移  
+    });  
+    // var icon = new BMap.Icon("http://app.baidu.com/map/images/us_mk_icon.png", new BMap.Size(json.w,json.h),{imageOffset: new BMap.Size(-json.l,-json.t),infoWindowOffset:new BMap.Size(json.lb+5,1),offset:new BMap.Size(json.x,json.h)})
+    return myIcon;
 }
 
 initMap();
