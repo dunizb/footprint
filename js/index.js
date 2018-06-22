@@ -34,9 +34,9 @@ function addMapControl(){
 //标注点数组
 var markerArr = [{
         title:"杭州",
-        content:"杭州市、杭州西湖景区",
+        content:"我目前在杭州，快来找我玩耍吧",
         point:"120.171467|30.257352",
-        isOpen:0,
+        isOpen:1,
         icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
     },{
         title:"乌镇",
@@ -136,9 +136,9 @@ var markerArr = [{
         icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
      },{
         title:"上海",
-        content:"目前我正在上海市，快来找我耍吧",
+        content:"外滩、南京路步行街、陆家嘴、欢乐谷、七宝古镇、城隍庙、佘山",
         point:"121.473338|31.233094",
-        isOpen:1,
+        isOpen:0,
         icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
      },{
          title:"大理",
