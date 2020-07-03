@@ -6,8 +6,9 @@ function initMap(){
 }
 
 //创建地图
+var map;
 function createMap(){
-    var map = new BMap.Map("container");          // 创建地图实例
+    map = new BMap.Map("container");          // 创建地图实例
     var point = new BMap.Point(101.488859,33.393234);//定义一个中心点坐标
     map.centerAndZoom(point,5);//设定地图的中心点和坐标并将地图显示在地图容器中
     window.map = map;//将map变量存储在全局
@@ -178,6 +179,13 @@ var markerArr = [{
       point: '121.979235|29.1452',
       isOpen: 0,
       icon: ponit_icon
+    },
+    {
+      title: "重庆重庆市",
+      content: "重庆市区",
+      point: "106.553263|29.568493",
+      isOpen: 0,
+      icon: ponit_icon,
     }
 ];
 
@@ -240,33 +248,3 @@ function createIcon(json){
 }
 
 initMap();
-
-$(function(){
-     $("#weixinLink,#myemail,#dashang").popover({
-        delay: { "show": 500, "hide": 100 },
-        placement:'top',
-        html:true
-    }).on("mouseenter",function(){
-        var _this = this;
-        $(this).popover("show")
-               .siblings(".popover")
-               .on("mouseleave", function () {
-                   $(_this).popover('hide');
-               });
-    }).on("mouseleave", function(){
-        var _this = this;
-        setTimeout(function () {
-            if (!$(".popover:hover").length) {
-                $(_this).popover("hide");
-            }
-        }, 100);
-    });
-
-    setInterval(function(){
-        $("#bookStore").css({"color":"#FFFF66"});
-        setTimeout(function(){
-            $("#bookStore").css({"color":"red"});
-        },500);
-    },1000);
-    
-});
