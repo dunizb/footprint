@@ -5,12 +5,10 @@
 ## 使用
 + 注册百度开发者，获得个人密钥，在index.html第22行替换url中ak参数
 ```
-<script src="http://api.map.baidu.com/api?v=2.0&ak=wAXe6n1e7ByUvVvyahsR2dC9d3gwNEaU" type="text/javascript"></script>
+<script src="http://api.map.baidu.com/api?v=3.0&ak=你的ak" type="text/javascript"></script>
 ```
 + 获取地理位置坐标：[百度地图坐标拾取系统](http://api.map.baidu.com/lbsapi/getpoint/index.html)
 + 填充地图数据：`js/index.js`36行开始，经纬度坐标以“|”分割
-
-[我的足迹](http://duni.sinaapp.com/obj/zuji/)
 
 ![我的足迹](img/1.png)
 
@@ -36,3 +34,4 @@
 |2017-06-12/07-29|云南省|大理古城、洱海、崇圣寺三塔、丽江古城、<br/>丽江拉市海、泸沽湖、昆明|旅行|
 |2017-08-25/08-30|广西省|北海、桂林|旅行|
 |2019-05-25/27|浙江省|宁波市象山大沙旅游景区|公司团建|
+|2020-06-25/29|重庆|重庆市区|旅游|
