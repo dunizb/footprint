@@ -186,6 +186,13 @@ var markerArr = [{
       point: "106.553263|29.568493",
       isOpen: 0,
       icon: ponit_icon,
+    },
+    {
+      title: "青岛市",
+      content: "青岛市",
+      point: "120.32363|36.070652",
+      isOpen: 0,
+      icon: ponit_icon,
     }
 ];
 
